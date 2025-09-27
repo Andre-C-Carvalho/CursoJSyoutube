@@ -26,7 +26,7 @@ tit.textContent = 'Mudando o título com JS';
 //Na variavel abaixa são inseridos totod os subtitulos 
 let teste3 = document.querySelectorAll('.subtitulo'); 
 
-//No laço abaico são escritos todo os subtítulos
+//No laço abaixo são escritos todos os subtítulos
 for(c=0; c < teste3.length; c++ ){
     document.writeln(teste3[c].textContent)
 }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 14</title>
+    <link rel="stylesheet" href="css/aula014.css">
+</head>
+<body>
+    <main>
+        <h1>Calcular Média</h1>
+        <section id="entrada">
+            <div id="notas">
+                <div id="nota1">
+                    <label class="rotulo" for="cxnota1">Nota 1:</label>
+                    <input class="caixaent" type="number" name="" id="cxnota1" onblur="validar(this)">
+                </div>
+                <div id="nota2">
+                    <label class="rotulo" for="cxnota2">Nota 2:</label>
+                    <input class="caixaent" type="number" name="" id="cxnota2" onblur="validar(this)">
+                </div>
+            </div>
+            <div id="botoes">
+                <button id="btc" type="submit">Calcular</button>
+                <button id="btl" type="reset">Limpar</button>
+            </div>
+        </section>
+        <section id="secsaida">
+            <label for="cxmedia">Média:</label>
+            <input type="number" name="" id="cxmedia">
+            <p id="saida" class="inicial">Situação Final</p>
+            <p id="aviso">Entre com uma nota válida!</p>
+        </section>
+    </main>
+</body>
+<script src="js/aula014.js"></script>
+</html>

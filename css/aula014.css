@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: auto;
+}
+
+main{
+    width: 400px;
+    height: 370px;
+    margin: 50px auto;
+    background-color: #243366;
+    border-radius: 10px;
+    color:white;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2rem;
+    margin: 10px auto;
+    padding-top: 10px;
+    width: 300px;
+}
+
+#notas{
+    margin: 15px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#notas p{
+    width: 70px;
+    display: inline;
+    font-size: .9rem;
+    background-color: red;
+    color: black;
+    border-radius: 5px;
+}
+
+#nota1{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+#nota2{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.caixaent{
+    width: 60px;
+    height: 17px;
+    text-align: center;
+}
+
+#botoes{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#btc, #btl{
+    background-color: green;
+    width: 70px;
+    height: 28px;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .95rem;
+    font-weight: 500;
+    color: white;
+    border: none;
+}
+
+#btl{
+    background-color: rgb(224, 102, 2);
+}
+
+#secsaida{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+#secsaida > input{
+    width: 60px;
+    height: 17px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.inicial{
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    width: 160px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+#aviso{
+    display: none;
+    margin: 0;
+    color: black;
+    background-color: rgb(163, 17, 17);
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.reprovado{
+    background-color: red;
+}
+
+.recuperacao{
+    background-color: yellow;
+}
+
+.aprovado{
+    background-color: greenyellow;
+}

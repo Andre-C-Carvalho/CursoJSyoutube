@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="css/imcCalc.css">
+</head>
+<body>
+    <main>
+        <h1>Calculadora de IMC</h1>
+        <section id="cadastro">
+            <form action="">
+                <div class="divdados">
+                    <label for="cxnome">Nome:</label>
+                    <input type="text" name="nome" id="cxnome">
+                </div>
+                <div class="divdados">
+                    <label for="cxnasc">Nacimento:</label>
+                    <input type="date" name="nasc" id="cxnasc">
+                </div>
+                <div class="divdados">
+                    <label for="cxpeso">Peso:</label>
+                    <input type="number" name="peso" id="cxpeso">
+                </div>
+                <div class="divdados">
+                    <label for="cxaltura">Altura:</label>
+                    <input type="number" name="altura" id="cxaltura">
+                </div>
+                <div id="botoes">
+                    <button id="btenviar" type="submit">Enviar</button>
+                    <button id="btlimpar" type="reset">Limpar</button>
+                </div>
+                <div id="saida">
+                    <p id="saida1">IMC:</p>
+                </div>
+            </form>
+        </section>
+        <section id="exibicao">
+            <p class="resumo">Nome:</p>
+            <p class="resumo">Nasc:</p>
+            <p class="resumo">Peso:</p>
+            <p class="resumo">Altura:</p>
+        </section>
+    </main>
+</body>
+<script src="js/imcCalc.js"></script>
+</html>
